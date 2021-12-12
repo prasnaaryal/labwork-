@@ -14,7 +14,7 @@
 
 num_classheld=int(input("enter the number of classes held"))
 num_classjoined=int(input("enter the number of classes attended"))
-percentage_classheld=num_classjoined%num_classheld*100
+percentage_classheld=num_classjoined//num_classheld*100
 print("the percentage of classes attended is",percentage_classheld)
 if percentage_classheld>=75:
     print("student is allowed to sit in exam")
